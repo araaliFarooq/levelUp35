@@ -8,8 +8,24 @@ body{
 	font-family:myfont, "Helvetica Neue", Helvetica, Arial, sans-serif;
 	
 }
+
+.boxed{
+    background-color: black;
+    padding:20px;
+    width:70px;
+    height:70px;
+    border:none;
+    outline:none;
+}
+
+.logo{
+    color:#fff;
+    font:17px bold calibri;
+    margin:20px auto;
+}
+
 .main{
-	margin:7em auto 0;
+	margin:9em auto 0;
 	width:44%;
 	
 	
@@ -68,6 +84,8 @@ font-variant:normal;
 	font-size:20px;
 	color: rgb(0, 0,0);
 	font-weight: 350;
+	margin-bottom: 50px;
+	
 
 }
 
