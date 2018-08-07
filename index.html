@@ -3,6 +3,7 @@
 <head>
 	<meta charset="utf-8">
 	<link href="css/style.css" rel='stylesheet' type='text/css' />
+	<link rel="stylesheet" href="css/bootstra.css">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 </head>
 <body>
@@ -12,6 +13,20 @@
 		  	<div class="head2"><h2>Signup to ride</h2></div>
 		  	<center class="head3">Safe, reliable trips in minutes</center>
 		</center>
+
+		<form>
+		    <!--<div class="input-group">
+		      	<span class="input-group-addon"><i class="glyphicon glyphicon-user"></i></span>
+		      	<input id="email" type="text" class="form-control" name="email" placeholder="Email">
+		    </div>
+		    <div class="input-group">
+		      	<span class="input-group-addon"><i class="glyphicon glyphicon-lock"></i></span>
+		      	<input id="password" type="password" class="form-control" name="password" placeholder="Password">
+		    </div>
+		    <br>-->
+
+		</form>
+
 		<form>
 		   	<div class="lable">
 		        <div class="col_1_of_2 span_1_of_2">
@@ -26,10 +41,20 @@
 		   	</div>
 		   	<div class="lable-2">
 				<label class="client_name"> Enter your phone number (required)</label>
-				<input type="tel" class="text" placeholder="Phone number">
+				<!--<input type="tel" class="text" placeholder="Phone number">-->
+				<div class="input-group">
+		      		<span class="input-group-addon">
+		      			<select class="dropdown">
+	                        <option>+256</option>
+	                        <option>+264</option>
+	                        <option>+254</option>
+	                    </select>
+	                </span>
+			      	<input type="tel" class="text" placeholder="Phone number">
+			    </div>
 
 				<label class="client_name"> Enter your email address (required)</label>
-		        <input type="text" class="text" placeholder="email">
+		        <input type="text" class="text" placeholder="Email address">
 
 				<label class="client_name"> Enter a password (required)</label>
 		        <input type="password" class="text" placeholder="Password">
